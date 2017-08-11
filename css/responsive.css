@@ -1,0 +1,111 @@
+@media (min-width: 768px) and (max-width: 1199px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-right {
+        float: none;
+    }
+    .nav>li {
+        width: 100%;
+        display: block !important;
+        margin-right: 40px;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 15px;
+    }
+    .nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 20px;
+    }
+    .navbar .navbar-right li:nth-child(7) {
+        border: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 20px;
+    }
+    .navbar-header .collapse,
+    .navbar-toggle {
+        display: block !important;
+    }
+    .navbar-header {
+        float: none;
+    }
+}
+
+@media (min-width: 1450px) {
+    #section2 .col-image1 img {
+        height: 30vw;
+    }
+    #section2 .col-text {
+        padding: 100px 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #section2 .col-text {
+        padding-top: 0;
+    }
+    .container {
+        width: none;
+    }
+    #section2 .col-image1 img {
+        height: 35vw;
+    }
+    #contact .col-image-phone {
+        background-size: contain;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #section2 .col-image1 img {
+        height: 70vw;
+    }
+    .col-contact-text {
+        text-align: center;
+    }
+    #contact .col-image-phone {
+        background-size: contain;
+        height: 70vw;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .nav-social,
+    .nav-number {
+        display: none;
+    }
+    #section2 .col-image1 img {
+        height: 70vw;
+    }
+    #section2 .col-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #special-recipes .col-text h2 {
+        font-size: 26px;
+    }
+    .col-image {
+        margin: 100px 0px 100px 0px;
+    }
+    .col-contact-text {
+        text-align: center;
+    }
+    #contact .col-image-phone {
+        background-size: contain;
+        height: 70vw;
+    }
+    #logo {
+        left: 0;
+    }
+    #top-line {
+        display: none;
+    }
+    .span-text {
+        display: none;
+    }
+}

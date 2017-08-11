@@ -1,0 +1,450 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+#logo {
+    z-index: 6;
+    position: fixed;
+    left: 20vw;
+}
+
+#top-line {
+    background-color: #fff;
+}
+
+#logo .icon {
+    position: relative;
+    top: 70px;
+    left: 105px;
+    color: #ebebeb;
+    filter: blur(0.5px)
+}
+
+#logo img {
+    position: absolute;
+    height: 150px;
+}
+
+header {
+    background: linear-gradient(to left, rgba(190, 117, 0, 0.41), rgba(220, 37, 37, 0.44)), url(../img/bgimage-alt.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #000000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default {
+    z-index: 1;
+}
+
+.navbar-toggle {
+    background-color: rgba(255, 69, 0, 0.41);
+}
+
+.mini-nav {
+    padding: 10px;
+}
+
+.mini-nav i {
+    font-size: 16px;
+    padding: 0px 5px;
+    color: #a50020;
+    transition: 0.2s;
+}
+
+.mini-nav i:hover {
+    color: #ff6482;
+}
+
+.main-nav figure img {
+    box-sizing: border-box;
+    height: 200px;
+}
+
+.navbar {
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.41);
+    border: none;
+}
+
+.navbar .navigation-container {
+    padding: 24px;
+}
+
+.navbar .navbar-right li a {
+    color: #fff;
+    font-size: 14px;
+    margin: 0px 5px;
+    transition: 0.3s;
+}
+
+.navbar .navbar-right li:nth-child(7) {
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.navbar .navbar-right li a:hover {
+    color: rgb(255, 157, 0);
+    text-shadow: 0px 0px 5px #000000;
+}
+
+.header-text {
+    padding-bottom: 100px;
+}
+
+.header-text h1,
+.header-text p {
+    color: #fff;
+}
+
+.header-text h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    padding-top: 200px;
+    margin-top: 0;
+}
+
+.header-text p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.header-text .btn {
+    margin: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.span-text {
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    transform: rotate(-50deg);
+    background-color: #000;
+    padding: 5px;
+    border-radius: 15px 5px 15px 5px;
+}
+
+#section2 {
+    background: linear-gradient(to right, rgba(214, 214, 214, 0.41), rgba(255, 255, 255, 0.44)), url(../img/section2image.jpg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#section2 .col-text {
+    padding: 0px 0px 100px 0px;
+    color: #000;
+}
+
+#section2 .col-text h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+#section2 .col-text h2 {
+    font-size: 40px;
+}
+
+#section2 .col-text p {
+    font-size: 20px;
+}
+
+#section2 .col-image1 {
+    padding: 100px 0px;
+}
+
+#section2 .col-image1 img {}
+
+#special-recipes {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url(../img/recipes.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#special-recipes .col-text {
+    background: url(../img/texture2.jpeg);
+    background-size: auto;
+    background-position: center;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.62);
+}
+
+#special-recipes .col-text h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+#special-recipes .col-text h2 {
+    font-size: 40px;
+}
+
+#special-recipes .col-text p {
+    font-size: 18px;
+}
+
+.col-image {
+    background: url(../img/miniimage1.jpeg);
+    background-position: right;
+    overflow: hidden;
+    padding: 30px;
+    margin: 100px;
+}
+
+
+/*------------------------------*/
+
+
+/*Experience section*/
+
+
+/*------------------------------*/
+
+#experience {
+    margin: 50px 0px;
+}
+
+#experience h2 {
+    padding: 30px;
+    font-size: 40px;
+}
+
+#experience h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.container-inner {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.container-inner .image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container-inner .overlay {
+    position: absolute;
+    bottom: 100%;
+    margin: 0px 20px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container-inner:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.container-inner .text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#news {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgb(255, 76, 76)), url(../img/sectionNewsbg.jpeg);
+    background-size: cover;
+}
+
+#news h3 {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+#news h2 {
+    color: #fff;
+    padding: 30px;
+    font-size: 40px;
+}
+
+#news .col-image-news {
+    background: url(../img/expImg/alco5.jpeg) center no-repeat;
+    padding: 30px;
+    overflow: hidden;
+}
+
+#news .text-news {
+    background-color: #fff;
+    padding: 30px;
+}
+
+#news .text-news h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+
+#news .text-news h2 {
+    color: #000;
+    padding: 5px;
+}
+
+#news .text-news p {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#news .text-news p i {
+    padding-right: 10px;
+}
+
+#news .row {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#news .col-image-news2 {
+    background: url(../img/expImg/alco5.jpeg) center no-repeat;
+    overflow: hidden;
+    padding: 30px;
+}
+
+#contact {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/pexels-photo-261043.jpeg)center no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0px;
+}
+
+#contact .col-image-phone {
+    background: url(../img/iphone_PNG5724.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vw;
+}
+
+#contact .col-contact-text {
+    margin-top: 0px;
+}
+
+#contact .col-contact-text h3 {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+
+#contact .col-contact-text h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-top: 30px;
+}
+
+#contact .col-contact-text p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#contact .col-contact-text .buttons {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    transition: 0.3s;
+}
+
+#contact .col-contact-text .buttons:hover {
+    background-color: #ff3d3d;
+}
+
+#contact .col-contact-text a p {
+    padding: 0px 15px;
+    text-align: left;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+#contact .col-contact-text a i {
+    color: #fff;
+    line-height: 1.2;
+}
+
+#contact2 {
+    padding: 50px 0px;
+    background-color: #1c1c1c;
+}
+
+#contact2 .col-contact h2 {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#contact2 .col-contact p {
+    color: #fff;
+    padding-top: 30px;
+}
+
+#contact2 .social-icons.footer {
+    margin-top: 50px;
+}
+
+#contact2 .social-icons.footer a {
+    color: orange;
+    font-size: 26px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#contact2 .social-icons.footer a:hover {
+    color: #ffdc9c;
+}
+
+#contact2 .col-contact form input {
+    border: none;
+    margin-top: 10px;
+    padding: 3px 5px;
+    background-color: #292929;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contact2 .col-contact form textarea {
+    border: none;
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: #292929;
+    border-radius: 5px;
+}
+
+#contact2 .col-contact form input[type='button'] {
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #91001d;
+}
+footer {
+    background-color: #0b0b0b;
+    padding: 20px;
+}
+footer h4 {
+    color: gray;
+    margin:0;
+    padding: 0:
+}
