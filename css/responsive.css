@@ -72,6 +72,9 @@
         background-size: contain;
         height: 70vw;
     }
+    .col-order {
+        text-align: left;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
@@ -94,6 +97,7 @@
     }
     .col-contact-text {
         text-align: center;
+        margin-left: 0;
     }
     #contact .col-image-phone {
         background-size: contain;
@@ -102,10 +106,12 @@
     #logo {
         left: 0;
     }
-    #top-line {
-        display: none;
-    }
+   
     .span-text {
         display: none;
+    }
+    .col-order {
+        text-align: right;
+        margin-left: 50%;
     }
 }
